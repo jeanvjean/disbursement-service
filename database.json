@@ -1,0 +1,13 @@
+{
+	"dev": {
+		"ENV": "DATABASE_URL"
+	},
+	"test": {
+		"ENV": "DATABASE_TEST_URL"
+	},
+	"prod": {
+		"ENV": "DATABASE_URL"
+	},
+	"sql-file" : true,
+	"migrations-dir": "./database/migrations"
+}

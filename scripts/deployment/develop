@@ -1,0 +1,9 @@
+-#!/bin/sh     
+ssh aku@dev-akupay-disbursement.akuproducts.com <<EOF       
+ cd dev/www/akupay-disbursement-service-develop
+ git pull --no-edit
+ npm install --production
+ npm run migrate_up:production
+ pm2 restart DEVELOP_DISBURSEMENT_API_SERVER
+ exit
+EOF

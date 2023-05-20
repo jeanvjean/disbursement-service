@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+
+ akupay-disbursement-service-backend:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      image: cap10/myrepository:akupay-disbursement-service-backend
+      container_name: akupay-disbursement-service
+      ports:
+        - 3348:3348
+    
+      

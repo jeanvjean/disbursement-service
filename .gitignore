@@ -1,0 +1,11 @@
+/node_modules
+/dist
+.env
+.nyc_output
+*.log
+.history
+coverage
+/storage/jwt
+package-lock.json
+storage
+.DS_Store

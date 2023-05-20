@@ -1,0 +1,93 @@
+<table width="100%" style="padding: 10px;">
+    <tbody>
+      <tr>
+        <td>
+          <table width="100%" style="border-bottom: 1px solid #EEE; text-align: center; background: #EEE;">
+            <tbody>
+              <tr>
+                <td>
+                  <img src="https://akupaydisbursement.nyc3.digitaloceanspaces.com/assets/logo.png" width="100">
+                </td> 
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>
+                Hello, <%= first_name %> <%= last_name %>
+              </td>     
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <tr>
+              <td>
+                Your account upload has been processed successfully, find the attached copy of your processed file
+              </td>     
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <tr>
+                <td>
+                  <a style="" href="<%= successBucketUrl %>">Click Here</a> download successfully uploaded beneficiary or copy the link below and paste into a browser if the button does not works.
+                </td>     
+            </tr>
+            <tr>
+                <td height="10"></td>
+                </tr>
+                <tr>
+                  <td>
+                    <%= successBucketUrl %>
+                  </td>     
+                </tr>
+            <tr>
+                <td height="20"></td>
+              </tr>
+              <tr>
+                  <td>
+                    <a style="" href="<%= errorBucketUrl %>">Click Here</a> download beneficiary with error or copy the link below and paste into a browser if the button does not works.
+                  </td>     
+              </tr>
+            <tr>
+            <td height="10"></td>
+            </tr>
+            <tr>
+              <td>
+                <%= errorBucketUrl %>
+              </td>     
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <tr>
+              <td>Regards,</td>   
+            </tr>
+            <tr>
+              <td>Akupay Team</td>   
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table width="100%" style="border-bottom: 1px solid #EEE; text-align: center; background: #EEE; min-height: 100px;">
+            <tbody>
+                <tr>
+                  <td>
+                    You are receiving this email because you registered using akupay sos app
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+  </tbody>
+</table>

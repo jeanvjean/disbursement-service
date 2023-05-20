@@ -1,0 +1,77 @@
+<table width="100%" style="padding: 10px;">
+  <tbody>
+    <tr>
+      <td>
+        <table width="100%" style="border-bottom: 1px solid #EEE; text-align: center; background: #EEE;">
+          <tbody>
+            <tr>
+              <td>
+                <img src="https://akupaydisbursement.nyc3.digitaloceanspaces.com/assets/logo.png" width="100">
+              </td> 
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>
+              Hello, <%= user.first_name %> <%= user.last_name %>
+            </td>     
+          </tr>
+          <tr>
+            <td height="20"></td>
+          </tr>
+          <tr>
+            <td>
+              Your request to download SMS Logs details has been accepted. Click the button below to download it.
+            </td>     
+          </tr>
+          <tr>
+            <td height="20"></td>
+          </tr>
+          <tr>
+              <td>
+                <a style="" href="<%= file.bucketUrl %>">Click Here</a> to Download  SMS Logs File or copy the link below and paste into a browser if the button does not works.
+              </td>     
+          </tr>
+          <tr>
+          <td height="10"></td>
+          </tr>
+          <tr>
+            <td>
+              <%= file.bucketUrl %>
+            </td>     
+          </tr>
+          <tr>
+            <td height="20"></td>
+          </tr>
+          <tr>
+            <td>Regards,</td>   
+          </tr>
+          <tr>
+            <td>Akupay Team</td>   
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table width="100%" style="border-bottom: 1px solid #EEE; text-align: center; background: #EEE; min-height: 100px;">
+          <tbody>
+              <tr>
+                <td>
+                  If you did not initiate this SMS Logs data Exports, please contact Akupay support by sending an email to supports@akupay.com 
+                </td>
+              </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+</tbody>
+</table>
